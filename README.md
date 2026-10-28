@@ -70,9 +70,9 @@ The training code lists these eight blood group classes:
 This project is intended for educational and research purposes only. Fingerprint-based blood group prediction is not established as a clinically reliable method for determining blood type. The predictions must not be used for medical diagnosis, blood transfusion, or treatment decisions. Blood type should be confirmed through validated laboratory testing.
 
 ## 👩‍💻 Author
-**Project:** Blood Group Detection Using Fingerprints  
-**Language:** Python  
-**Domain:** Artificial Intelligence, Machine Learning, and Image Processing
+
+**Urvashi Varshney**
+GitHub: https://github.com/urvashi-varshney
 
 ## ⭐ Acknowledgements
 This project was developed as a learning exercise to explore deep learning, fingerprint image processing, and web application development using Python.
