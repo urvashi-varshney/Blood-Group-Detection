@@ -29,7 +29,6 @@ This project is developed for educational and research purposes to explore the a
 - **Frontend:** HTML and CSS
 - **Development Environment:** Visual Studio Code
 
-
 ## 🔍 How It Works
 1. The user opens the web application.
 2. The user uploads a fingerprint image.
