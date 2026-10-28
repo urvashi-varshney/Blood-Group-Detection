@@ -34,16 +34,15 @@ This project is developed for educational and research purposes to explore the a
 ```text
 Blood-Group-Detection/
 │
+├── 📂templates
+     ├── index.html
+     ├── result.html
+     ├── task_manager.html
+     ├── upload.html
+├── 📂uploads
 ├── app.py
-├── main.py
-├── result.html
-├── index.html
-├── upload.html
-├── task_manager.html
-├── blood_group_model.keras
-├── dataset/
 ├── requirements.txt
-├── .gitignore
+├── main.py
 └── README.md
 ```
 
