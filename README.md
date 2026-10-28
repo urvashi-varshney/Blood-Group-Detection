@@ -29,82 +29,6 @@ This project is developed for educational and research purposes to explore the a
 - **Frontend:** HTML and CSS
 - **Development Environment:** Visual Studio Code
 
-## 📂 Project Structure
-
-```text
-Blood-Group-Detection/
-│
-├── 📂templates
-     ├── index.html
-     ├── result.html
-     ├── task_manager.html
-     ├── upload.html
-├── 📂uploads
-├── app.py
-├── requirements.txt
-├── main.py
-└── README.md
-```
-
-**Note:** Flask HTML templates should be placed inside a folder named `templates/`. The model file and dataset must also be available at the paths configured in the Python code. Adjust this structure to match your actual repository.
-
-## ⚙️ Installation and Setup
-
-### Step 1: Clone the Repository
-
-```bash
-git clone https://github.com/Urvashi-Varshney/Blood-Group-Detection
-```
-
-### Step 2: Open the Project
-
-Open the project folder in Visual Studio Code.
-
-### Step 3: Create a Virtual Environment
-
-```bash
-python -m venv venv
-```
-
-Activate it on Windows:
-
-```bash
-venv\Scripts\activate
-```
-
-### Step 4: Install Dependencies
-
-Install the required libraries:
-
-```bash
-pip install flask tensorflow opencv-python numpy pillow
-```
-
-If a `requirements.txt` file is available, use:
-
-```bash
-pip install -r requirements.txt
-```
-
-### Step 5: Configure the Model and Dataset
-
-Place the trained model file in the location expected by `app.py`. If you want to train the model, configure the dataset path in `main.py` to match your computer.
-
-### Step 6: Run the Application
-
-Start the Flask web application:
-
-```bash
-python app.py
-```
-
-Open the local URL shown in your terminal, usually:
-
-```text
-http://127.0.0.1:5000/
-```
-
-The application will run only after its required dependencies, templates, model file, and other configurations are set up correctly.
 
 ## 🔍 How It Works
 1. The user opens the web application.
@@ -115,9 +39,7 @@ The application will run only after its required dependencies, templates, model 
 
 ## 🧪 Model Information
 The training script uses an EfficientNetB0-based deep learning architecture to learn patterns from fingerprint images.
-
 The training code lists these eight blood group classes:
-
 - A+
 - A-
 - B+
